@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+html{
+    font-size: 15px;
+}
+.my-cont{
+    width: 100%;
+    background-color: #333;
+}
+.my-cont img{
+    margin-left: 7rem;
+    padding: 1rem 0;
+}
+h3 , h2{
+    margin-top: 0;
+}
+
+.wrapper{
+    background-image: url("../img/house2.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    height: 100vh;
+   
+}
+.login-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.properties-info{
+    width: 30%;
+    padding: 1.5rem;
+    background-image:linear-gradient(rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.8) 100%),url("../img/mikhail-derecha-q-XTB-YTsho-unsplash2.jpg");
+    color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.properties-info h3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2.3rem;
+
+}
+.properties-info span{
+    margin-right: 1rem;
+}
+.properties-info p{
+    line-height: 2rem;
+}
+
+.login{
+    width: 30%;
+   height: 80vh;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    padding: 10px;
+    opacity: 0.9;
+    box-shadow: rgba(0,0,0,0.3);
+    margin-top: 3rem;
+    color: #2c3c53;
+    
+   
+}
+.login-text h3{
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+label{
+    font-size: 1rem;
+}
+.form-group{
+    margin-top: 3rem!important;
+}
+.form-control{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    border-color: #2c3c53!important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0ps !important;
+    margin-top: 10px;
+    height: auto;
+    border-radius: 0;
+    background-color: #ffff;
+    background-clip: border-box;
+    margin-bottom: 2rem;
+}
+.form-control:focus{
+    color: #495057;
+    background-color: #ffff;
+    border-color: #2c3c53;
+    outline: 0;
+    box-shadow: none;
+}
+.need-help h4{
+    font-size: 1rem;
+}
+.login-heading h4{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+span.fa-facebook{
+    color: #fff;
+    background-color: #1aa3ff;
+    padding: 5px 8px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+span.fa-google-plus{
+    color: #fff;
+    background-color: red;
+    padding: 8px 8px;
+   font-size: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#email{
+    font-weight: 400;
+}
+.footer{
+    background-color: #2c3c53;
+    width: 100%;
+    color: #fff;
+    padding: 1rem 0;
+    
+}
+.footer h4{
+    font-size: 1rem;
+}
+
+
+
+@media (max-width:600px){
+    .login{
+        width: 100%;
+        margin: 3rem 1.5rem 0 1.5rem;
+       
+    }
+    .properties-info{
+       display: none;
+    }
+    
+}
